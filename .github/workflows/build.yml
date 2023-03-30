@@ -33,7 +33,7 @@ jobs:
     strategy:
       matrix:
         boards: [radxa-nx5-io]
-        build_systems: [debos, rbuild]
+        build_systems: [rbuild]
         distros: [debian, ubuntu]
         flavors: [kde, cli]
         exclude:
